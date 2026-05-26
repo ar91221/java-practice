@@ -18,14 +18,14 @@ public class WhileLoopRealWorld {
             
             if (enteredPin == correctPin) {
                 isValid = true;
-                System.out.println("✅ Access granted!");
+                System.out.println("Access granted!");
             } else {
-                System.out.println("❌ Incorrect PIN. Attempts left: " + (maxAttempts - attempts));
+                System.out.println("Incorrect PIN. Attempts left: " + (maxAttempts - attempts));
             }
         }
         
         if (!isValid) {
-            System.out.println("🔒 Too many attempts. Account locked!");
+            System.out.println("Too many attempts. Account locked!");
         }
         
         // Example 2: Menu system
