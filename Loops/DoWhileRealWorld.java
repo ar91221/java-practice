@@ -29,8 +29,8 @@ public class DoWhileBasics {
             choice = scanner.nextInt();
             
             switch (choice) {
-                case 1 -> System.out.println("Hello! 👋");
-                case 2 -> System.out.println("Goodbye! 👋");
+                case 1 -> System.out.println("Hello!");
+                case 2 -> System.out.println("Goodbye!");
                 case 3 -> System.out.println("Exiting...");
                 default -> System.out.println("Invalid choice!");
             }
